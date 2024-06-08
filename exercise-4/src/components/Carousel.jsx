@@ -3,6 +3,7 @@ import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
 
 export const Carousel = ({ images }) => {
   /* You will need to  use  state to mnage the current image */
+  const {images}= images;
 
   /* You will need to hanle the click on left and right button */
 
